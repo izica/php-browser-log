@@ -1,0 +1,20 @@
+{
+    "name": "izica/php-browser-log",
+    "description": "Pretty log in browser console",
+    "authors": [
+        {
+            "name": "Golovarchuk Artyom",
+            "email": "artemiztomska@gmail.com"
+        }
+    ],
+    "keywords": ["log", "php", "logger", "browser"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "classmap": [
+            "PhpBrowserLog.php"
+        ]
+    }
+}
