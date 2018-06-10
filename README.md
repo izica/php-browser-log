@@ -1,3 +1,4 @@
+![browser screen](screenshot.png "browser screen")
 ## Install
 ```
 composer require izica/php-browser-log
