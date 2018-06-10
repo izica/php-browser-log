@@ -1,4 +1,5 @@
 <?php
+
 class PhpBrowserLog
 {
     public static function script($data, $command = 'console.log', $variable = false)
@@ -12,7 +13,7 @@ class PhpBrowserLog
         echo '</script>';
     }
 
-    public static getVarsNames($arCaller)
+    public static function getVarsNames($arCaller)
     {
         $sFile = file_get_contents($arCaller['file']);
         $arFile = explode("\n", $sFile);
@@ -21,7 +22,20 @@ class PhpBrowserLog
         return explode(',', $arArgsNames);
     }
 
-    public static print()
+    public static function log()
+    {
+        $arBt = debug_backtrace();
+        $arCaller = array_shift($arBt);
+        $arArgsNames = self::getVarsNames($arCaller);
+
+        self::script('[' . $arCaller['line'] . '] ' . $arCaller['file'], 'console.groupCollapsed');
+        foreach ($arCaller['args'] as $nKey => $anyArg) {
+            self::script($anyArg, 'console.log', $arArgsNames[$nKey]);
+        }
+        self::script('', 'console.groupEnd');
+    }
+
+    public static function pre()
     {
         $arBt = debug_backtrace();
         $arCaller = array_shift($arBt);

@@ -15,6 +15,9 @@
     "autoload": {
         "classmap": [
             "PhpBrowserLog.php"
+        ],
+        "files": [
+            "pre.php"
         ]
     }
 }
