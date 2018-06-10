@@ -1,4 +1,4 @@
-![browser screen](screenshot.png "browser screen")
+![browser screen](https://raw.githubusercontent.com/izica/php-browser-log/master/screen.png "browser screen")
 ## Install
 ```
 composer require izica/php-browser-log
