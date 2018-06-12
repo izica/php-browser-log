@@ -1,4 +1,6 @@
 ![browser screen](https://raw.githubusercontent.com/izica/php-browser-log/master/screen.png "browser screen")
+## print_r() and var_dump() alternative
+Printing your data in browser console
 ## Install
 ```
 composer require izica/php-browser-log
