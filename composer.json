@@ -7,7 +7,7 @@
             "email": "artemiztomska@gmail.com"
         }
     ],
-    "keywords": ["log", "php", "logger", "browser"],
+    "keywords": ["log", "php", "logger", "browser", "alternative", "var_dump", "print_r", "console-log],
     "license": "MIT",
     "require": {
         "php": ">=5.6.0"
