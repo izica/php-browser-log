@@ -7,7 +7,7 @@
             "email": "artemiztomska@gmail.com"
         }
     ],
-    "keywords": ["log", "php", "logger", "browser", "alternative", "var_dump", "print_r", "console-log],
+    "keywords": ["log", "logs", "php-logs", "php-logger", "php7", "php", "logger", "browser", "alternative", "vardump", "var-dump", "printr", "print-r", "console-log", "dev-tools", "devtools", "developer-tools", "development-tools", "console", "chrome", "opera", "firefox", "chrome-log", "chrome-dev-tools"],
     "license": "MIT",
     "require": {
         "php": ">=5.6.0"
