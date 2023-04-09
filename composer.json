@@ -1,12 +1,6 @@
 {
     "name": "izica/php-browser-log",
     "description": "Pretty log in browser console",
-    "authors": [
-        {
-            "name": "Golovarchuk Artyom",
-            "email": "artemiztomska@gmail.com"
-        }
-    ],
     "keywords": ["log", "logs", "php-logs", "php-logger", "php7", "php", "logger", "browser", "alternative", "vardump", "var-dump", "printr", "print-r", "console-log", "dev-tools", "devtools", "developer-tools", "development-tools", "console", "chrome", "opera", "firefox", "chrome-log", "chrome-dev-tools"],
     "license": "MIT",
     "require": {
